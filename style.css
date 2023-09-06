@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --main-color: #ffc200;
+}
+
+body {
+    background-color: #303030;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    background: url("images/back-1.png") center/cover no-repeat;
+    background-size: 42% 100%;
+    background-position: left;
+}
+
+#back {
+    padding-bottom: 235px;
+    height: 100%;
+    background: url("images/special.png") no-repeat;
+    background-size: 70% 100%;
+    background-position: right;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+nav a:hover {
+    transition-property: color;
+    transition-duration: 1s;
+    color: var(--main-color)
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 60%;
+}
+
+nav .logo {
+    width: 40%;
+}
+
+.box {
+    text-align: left;
+    margin-left: 42%;
+    margin-top: 140px;
+    width: 50%;
+    position: relative;
+}
+
+.box h1 {
+    color: var(--main-color);
+    font-size: 4em;
+}
+
+.box p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 50px;
+}
+
+.box a {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 45px;
+    color: #303030;
+    padding: 20px 55px;
+    background-color: var(--main-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.box a:hover {
+    background-color: #f09000;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    color: white;
+}
+
+.cover {
+    position: absolute;
+}
+
+.c-1 {
+    right: -15%;
+    top: -5%;
+}
+
+.c-2 {
+    bottom: -35%;
+}
+
+main {
+    padding-top: 140px;
+    background-color: white;
+}
+
+main>h1 {
+    color: #303030;
+    font-size: 3em;
+    text-align: center;
+}
+
+main>p {
+    color: #303030;
+    font-size: 1.2em;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.item {
+    width: 18%;
+    margin: 30px;
+    text-align: center;
+}
+
+.item h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.6em;
+}
+
+.item p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.second {
+    height: 80vh;
+    margin-top: 200px;
+    background-image: url("images/back-2.png");
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub {
+    width: 30%;
+    text-align: left;
+}
+
+#sub-1 {
+    margin-top: -10%;
+}
+
+.sub h1 {
+    color: var(--main-color);
+    font-size: 4.5em;
+    text-align: left;
+}
+
+.sub p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.sub a {
+    font-size: 1.56em;
+    display: inline-block;
+    margin-top: 45px;
+    color: #303030;
+    padding: 20px 55px;
+    background-color: var(--main-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.third {
+    background-color: #303030;
+    margin-top: -6%;
+    padding-bottom: 190px;
+}
+
+.third h1 {
+    color: var(--main-color);
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.third p {
+    margin-top: 50px;
+    font-size: 1.56em;
+    color: white;
+}
+
+.statistics {
+    margin: auto;
+    margin-top: 102px;
+    width: 80%;
+    text-align: center;
+    position: flex;
+    justify-content: center;
+    padding: 1px;
+    display: flex;
+}
+
+.stat {
+    margin-left: 27px;
+    margin-right: 27px;
+    width: 18%;
+    display: inline-block;
+    border-radius: 300%;
+    border: 7px solid white;
+}
+
+.stat h1 {
+    font-size: 2.3em;
+    margin-top: 65px;
+}
+
+.stat p {
+    margin-top: 24px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.fourth {
+    height: 85vh;
+    background-image: url("images/back-3.png");
+    background-size: 150% 105%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sub-container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub1 {
+    width: 30%;
+    text-align: left;
+}
+
+#sub-1 {
+    margin-top: -10%;
+}
+
+.sub1 h1 {
+    color: var(--main-color);
+    font-size: 4.5em;
+    text-align: left;
+}
+
+.sub1 p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.sub1 a {
+    font-size: 1.56em;
+    display: inline-block;
+    margin-top: 55px;
+    color: #303030;
+    padding: 20px 55px;
+    background-color: var(--main-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.fifth {
+    margin-top: 120px;
+    background-color: #ffc200;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.fifth img {
+    width: 100%;
+    height: 100%;
+}
+
+.softyellow {
+    width: 100%;
+    background-color: var(--main-color);
+    opacity: 0.6;
+    height: 100%;
+    position: absolute;
+}
+
+.fifth h1 {
+    position: absolute;
+    bottom: 35%;
+    font-size: 4em;
+}
+
+.fifth p {
+    position: absolute;
+    top: 33%;
+    font-size: 2em;
+}
+
+.sixth {
+    width: 100%;
+    text-align: center;
+}
+
+.sixth h1 {
+    font-size: 4em;
+}
+
+.sixth p {
+    font-size: 2em;
+
+}
+
+.subscribe{
+    width:55%;
+    height:100px;
+    margin:auto;
+    position: relative;
+    margin-top:80px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin-bottom:310px;
+}
+
+.searchbar{
+    width:70%;
+    background-color: white;
+    position: absolute;
+    left:0;
+    padding:31px 22px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.button{
+    width:30%;
+    padding:36px 24px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color:var(--main-color) ;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    right:0;
+    color:#303030
+}
