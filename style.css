@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat&display=swap');
 
 :root {
     --main-color: #ffc200;
@@ -70,7 +71,8 @@ nav .logo {
 
 .box h1 {
     color: var(--main-color);
-    font-size: 4em;
+    font-size: 5em;
+    font-family: "Grand Hotel";
 }
 
 .box p {
@@ -113,6 +115,31 @@ nav .logo {
     bottom: -35%;
 }
 
+.c-3{
+    bottom:-20%;
+    right:5%;
+}
+
+.c-4{
+    top:-40%;
+    left:-10%;
+}
+
+.c-5{
+    top:-30%;
+    left:50%;
+}
+
+.c-6{
+    bottom: -40%;
+    left:-1%;
+}
+
+.c-7{
+    bottom:-70%;
+    right:30%;
+}
+
 main {
     padding-top: 140px;
     background-color: white;
@@ -120,8 +147,9 @@ main {
 
 main>h1 {
     color: #303030;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
+    font-family: "Grand Hotel";
 }
 
 main>p {
@@ -147,7 +175,7 @@ main>p {
 }
 
 .item h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Grand Hotel";
     text-align: center;
     margin-top: 15px;
     font-size: 1.6em;
@@ -183,6 +211,7 @@ main>p {
 
 .sub h1 {
     color: var(--main-color);
+    font-family: "Grand Hotel";
     font-size: 4.5em;
     text-align: left;
 }
@@ -208,10 +237,18 @@ main>p {
     transition-duration: 1s;
 }
 
+.sub a:hover{
+    background-color: #f09000;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    color: white; 
+}
+
 .third {
     background-color: #303030;
     margin-top: -6%;
     padding-bottom: 190px;
+    position: relative;
 }
 
 .third h1 {
@@ -258,6 +295,40 @@ main>p {
     margin-bottom: 65px;
 }
 
+.veg{
+    position:absolute;
+}
+
+.v-1{
+    top:40%;
+    left:3%;
+}
+
+.v-2{
+    top:10%;
+    right:20%;
+}
+
+.v-3{
+    top:10%;
+    left:20%;
+}
+
+.v-4{
+    left:30%;
+    bottom:1%;
+}
+
+.v-5{
+    right:30%;
+    bottom:8%;
+}
+
+.v-6{
+    right:5%;
+    bottom:40%;
+}
+
 .fourth {
     height: 85vh;
     background-image: url("images/back-3.png");
@@ -284,6 +355,7 @@ main>p {
     color: var(--main-color);
     font-size: 4.5em;
     text-align: left;
+    font-family: "Grand Hotel";
 }
 
 .sub1 p {
@@ -305,6 +377,12 @@ main>p {
     border-radius: 3px;
     transition-property: background-color, color;
     transition-duration: 1s;
+}
+.sub1 a:hover{
+    background-color: #f09000;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    color: white;
 }
 
 .fifth {
@@ -344,6 +422,7 @@ main>p {
 .sixth {
     width: 100%;
     text-align: center;
+    position: relative
 }
 
 .sixth h1 {
@@ -352,39 +431,167 @@ main>p {
 
 .sixth p {
     font-size: 2em;
-
+    padding: 0%;
 }
 
-.subscribe{
-    width:55%;
-    height:100px;
-    margin:auto;
+.image{
+    position: absolute;
+}
+
+.i-1{
+    bottom:-70%;
+    left:2%;
+}
+
+.i-2{
+    top:5%;
+    right:2%;
+}
+
+.i-3{
+    bottom:-40%;
+    right:10%;
+}
+
+.i-4{
+    top:10%;
+    left:20%;
+}
+
+.i-5{
+    top:70%;
+    left:10%;
+}
+
+.i-6{
+    top:10%;
+    left:50%;
+}
+
+.i-7{
+    bottom:-80%;
+    right:20%;
+}
+
+.subscribe {
+    width: 55%;
+    margin: auto;
     position: relative;
-    margin-top:80px;
-    box-shadow: 5px 10px 8px 10px #888888;
-    margin-bottom:310px;
+    margin-top: 80px;
+    box-shadow: 5px 10px #474747;
+    margin-bottom: 310px;
 }
 
-.searchbar{
-    width:70%;
+.searchbar {
+    width: 70%;
     background-color: white;
     position: absolute;
-    left:0;
-    padding:31px 22px;
-    font-size: 1.5em;
+    left: 0;
+    padding: 21px 22px;
+    box-shadow: 10px 5px 10px #474747;
+    font-size: 1.8em;
     text-align: left;
+    color: #8a8a8a
 }
 
-.button{
-    width:30%;
-    padding:36px 24px;
-    font-size: 1.5em;
-    font-weight: bold;
-    background-color:var(--main-color) ;
+.button {
+    width: 30%;
+    padding: 21px 22px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    background-color: var(--main-color);
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 5px 5px 10px #474747;
     position: absolute;
-    right:0;
-    color:#303030
+    right: 0;
+    color: #303030;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.button:hover{
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    color:white;
+    background-color: #f09000;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #303030;
+    padding: 90px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    color: white
+}
+
+.endtitle {
+    width: 31%;
+    text-align: left;
+    display: inline-block;
+}
+
+.endtitle h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.endtitle p {
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+.socials {
+    margin-top: 35px;
+    text-align: left;
+}
+
+.socials img {
+    display: inline-block;
+    width: auto;
+    margin-right: 4px;
+    color:transparent;
+    background-color: transparent;
+}
+
+.about {
+    width: 13%;
+    text-align: left;
+    margin-left: 120px;
+    display: inline-block;
+}
+
+.about h1{
+    text-transform: uppercase;
+margin-top: 100px;
+}
+
+.about p{
+    margin-top:23px;
+}
+
+.about .history{
+    margin-top:40px;
+    font-size: 1.2em;
+}
+
+.other{
+    width: 13%;
+    text-align: left;
+    margin-left: 120px;
+    display: inline-block;
+    position:absolute;
+}
+
+.other h1{
+    text-transform: uppercase;
+margin-top: 100px;
+}
+
+.other p{
+    margin-top:23px;
 }
